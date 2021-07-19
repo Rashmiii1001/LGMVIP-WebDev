@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    margin: 0;
+    padding-left: 0px;
+}
+
+/* NAVIGATION-BAR SECTION */
+
+nav {
+    text-transform: uppercase;
+}
+
+nav.navbar {
+    padding: 10px 25%;
+}
+
+#navbarNav {
+    padding-left: 40%;
+    font-size: small;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-caption {
+    top: 160px;
+}
+
+.carousel-item h3,
+.carousel-item p {
+    width: 50%;
+    color: black;
+}
+
+/* WELCOME SECTION */
+
+.welcome,
+.projects,
+.pricing-table,
+.blog,
+.newsletter,
+.contact {
+    margin-top: 25px;
+}
+
+.welcome h2,
+.projects h2,
+.pricing-table h2,
+.team h2,
+.life h2,
+.blog h2,
+.contact h2,
+.video-projects h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.welcome-text p {
+    color: grey;
+    width: 60%;
+}
+
+i.fas.fa-umbrella {
+    margin-top: 10px;
+    font-size: 1000%;
+    color: rgb(175, 172, 172);
+}
+
+i.fas.fa-mail-bulk,
+i.fas.fa-bullhorn,
+i.fas.fa-lightbulb {
+    margin-bottom: 25px;
+    font-size: 400%;
+    color: rgb(175, 172, 172);
+}
+
+button.btn {
+    background-color: #ffcf40;
+}
+
+button.btn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+hr {
+    margin-top: 5rem !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-6 {
+    padding: 0 !important;
+}
+
+/* PROJECTS SECTION */
+.projects .row{
+    margin-right: 0px;
+}
+
+.projects img {
+    width: 100%;
+    height: 425px;
+}
+
+.projects-text {
+    background-color: lightgrey;
+}
+
+.projects-text :hover {
+    background-color: #ffcf40;
+}
+
+.projects-text h5 {
+    font-weight: 900;
+    padding-top: 20px;
+    padding-right: 18%;
+}
+
+.projects-text p {
+    width: 70%;
+    color: grey;
+}
+
+.projects-text .btn {
+    background-color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+.projects-text .btn :hover {
+    background-color: blueviolet;
+}
+
+
+/* VIDEO PROJECTS */
+
+.video-projects {
+    background-color: rgb(178, 124, 228);
+    margin-top: 30px;
+    padding-bottom: -20px;
+}
+
+.video-projects h2{
+    color: white;
+    padding-top: 3%;
+}
+
+/* TEAM */
+
+.team4 {
+    font-weight: 300;
+}
+
+.team4 .row {
+    width: 90%;
+    margin-left: 15%;
+}
+
+.team4 .font-weight-medium {
+    font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 h6 {
+    color: grey;
+}
+
+.team4 img {
+    height: 160px;
+}
+
+.hov:hover .image {
+    opacity: 0.4;
+}
+
+.hov:hover .socialteam {
+    opacity: 1;
+    color: rgb(55, 43, 226);
+}
+
+.socialteam {
+    transition: 0.5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 35%;
+    left: 45%;
+    font-size: 30px;
+}
+
+/* LIFE */
+
+.life {
+    padding-bottom: 40px;
+    margin-bottom: -50px;
+}
+
+.life h2 {
+    padding-top: 30px;
+}
+
+.container {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+    height: 80%;
+}
+
+.mySlides img {
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+.cursor {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 95%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: white;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.column {
+    float: right;
+    width: 16%;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    background-image: url("assets/scenery1.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.newsletter h2 {
+    padding-top: 20px;
+}
+
+.newform {
+    padding-left: 30%;
+    padding-top: 6%;
+    width: 80%;
+}
+
+.newform input {
+    height: 38px;
+    width: 60%;
+    border: white;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+/* BLOG SECTION */
+
+.blog img {
+    height: 150px;
+    width: 85%;
+    margin-bottom: 10%;
+}
+
+.blog-text p {
+    width: 60%;
+}
+
+/* CONTACT */
+
+.left {
+    background-image: url("assets/map.jpg");
+    background-repeat: no-repeat;
+    height: 670px;
+    /* background-size: 100% 100%; */
+    color: white;
+    width: 95% !important
+}
+
+.right {
+    background-color: #ffcf40;
+    width: 95% !important
+}
+
+.contact form {
+    padding: 50px;
+}
+
+.right label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subtn {
+    margin-top: 20px;
+    background-color: darkblueviolet !important;
+    width: 84%;
+    color: white;
+    background-color: blueviolet !important;
+}
+
+/* FOOTER */
+
+footer {
+    background: white;
+    color: black;
+}
+
+footer a {
+    color: black;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid black;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: black;
+}
+
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a {
+    font-size: 18px;
+    color: rgb(55, 43, 226);
+}
+
+footer h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+footer p,
+.list-unstyled {
+    font-size: 16px;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and ( min-width:460px) {
+    img.d-block.w-100 {
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 460px) {
+    .carousel-item{
+        height: auto;
+    }
+    i.fas.fa-umbrella{
+        font-size: 600%;
+    }
+    .col-md-4{
+        margin-bottom: 20px;
+    }
+    .welcome-text.col-md-6{
+        margin-bottom: 10px;
+    }
+    img.img-fluid.rounded-circle, .pt-2{
+        margin-left: -40%;
+    }
+    .footer-middle{
+        margin-left: 15px;
+    }
+}
